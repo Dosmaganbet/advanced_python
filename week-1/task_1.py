@@ -1,0 +1,7 @@
+name = input("Your last name, first name? ")
+age = input("How old are you? ")
+phone = input("Your phone number? ")
+print()
+print("Your first name, last name", name)
+print("Your age", age)
+print("Your phone number", phone)

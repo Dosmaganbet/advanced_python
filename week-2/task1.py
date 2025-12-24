@@ -1,11 +1,10 @@
-# Читаем строку символов
 s = input()
+count = 0
+for i in range(len(s) - 4):
 
-# Считаем количество стрел вида >>-->
-count1 = s.count('>>-->')
+    part = s[i : i+5]
 
-# Считаем количество стрел вида <--<<
-count2 = s.count('<--<<')
+    if part == ">>-->" or part == "<--<<":
+        count = count + 1
 
-# Выводим общую сумму
-print(count1 + count2)
+print(count)

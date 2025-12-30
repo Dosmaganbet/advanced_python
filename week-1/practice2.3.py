@@ -1,0 +1,5 @@
+text = input()
+count = text.count('.')
+new_text = text.replace('.', '')
+print(new_text)
+print(count)

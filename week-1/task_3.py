@@ -1,0 +1,5 @@
+num = float(input())
+integer_part = int(num)
+fractional_part = int(round((num - integer_part) * 100))
+result = fractional_part + (integer_part / 100)
+print(result)

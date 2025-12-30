@@ -1,0 +1,5 @@
+text = input()
+amount = text.count(':')
+new_text = text.replace(':', '%')
+print(new_text)
+print(amount)

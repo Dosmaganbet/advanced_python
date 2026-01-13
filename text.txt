@@ -1,0 +1,2 @@
+Hello world! Python is amazing.
+I am learning to code. Code is fun, fun, fun.
